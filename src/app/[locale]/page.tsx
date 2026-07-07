@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import SmoothScroll from '@/components/SmoothScroll';
+import Header from '@/components/Header';
 import LanguageSwitch from '@/components/LanguageSwitch';
 import LandingContent from '@/components/LandingContent';
 
@@ -16,6 +17,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   
   return (
     <SmoothScroll>
+      <Header />
       <LanguageSwitch />
       <LandingContent locale={locale} />
     </SmoothScroll>
