@@ -1,0 +1,64 @@
+{
+  "Hero": {
+    "headline": "Digital Presence Architecture.",
+    "offer": "We build websites visible to humans and AI. Specializing in GEO (AI search) and uncompromising SEO.",
+    "cta": "Discuss project"
+  },
+  "Problem": {
+    "title": "Traditional search is losing its monopoly",
+    "description": "Users seek answers via ChatGPT, Claude, and Gemini.",
+    "solutionTitle": "Generative Engine Optimization (GEO)",
+    "solutionDesc": "We structure your business data so AI recommends you first, outpacing competitors."
+  },
+  "Services": {
+    "web": {
+      "title": "Web Development",
+      "desc": "Fast, minimalist websites focused on typography, conversion, and a flawless technical foundation."
+    },
+    "seo": {
+      "title": "SEO",
+      "desc": "Technical and content SEO. Clean code, semantics, and proper structure for Google dominance."
+    },
+    "geo": {
+      "title": "GEO",
+      "desc": "Content adaptation for LLM algorithms. Making your brand a part of generative AI responses."
+    },
+    "maps": {
+      "title": "Google Maps",
+      "desc": "Local monopoly. Profile optimization for exponential growth in calls and route requests."
+    }
+  },
+  "Case": {
+    "title": "Robotech.md",
+    "situationLabel": "Situation:",
+    "situation": "Great product, zero visibility.",
+    "solutionLabel": "Solution:",
+    "solution": "Platform development focused on SEO architecture and technical speed.",
+    "resultLabel": "Result:",
+    "result": "Top ranking in local search, exponential growth in B2B leads and organic traffic."
+  },
+  "Testimonials": {
+    "1": {
+      "quote": "osmi rebuilt our digital infrastructure. In 3 months, we started getting a steady stream of clients from Google Maps we never even thought about.",
+      "author": "Retail Chain Director"
+    },
+    "2": {
+      "quote": "We didn't believe in SEO until the guys showed us the metrics after the new site launch. Now we don't look for clients, they find us.",
+      "author": "Manufacturing Founder"
+    },
+    "3": {
+      "quote": "The GEO strategy integration was a breakthrough. When AI assistants started recommending our service, customer acquisition costs dropped by half.",
+      "author": "Service Company CEO"
+    }
+  },
+  "Contact": {
+    "title": "Start the transformation.",
+    "name": "Name",
+    "email": "Email",
+    "task": "Brief task description",
+    "cta": "Send request",
+    "sending": "Sending...",
+    "success": "Thank you! Your request has been sent successfully.",
+    "error": "Something went wrong. Please try again."
+  }
+}
