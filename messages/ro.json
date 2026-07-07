@@ -1,0 +1,50 @@
+{
+  "Hero": {
+    "headline": "Arhitectura prezenței digitale.",
+    "offer": "Dezvoltăm site-uri vizibile pentru oameni și inteligența artificială. Specializați în GEO (căutare AI) și SEO fără compromisuri.",
+    "cta": "Discută proiectul"
+  },
+  "Problem": {
+    "title": "Căutarea tradițională își pierde monopolul",
+    "description": "Utilizatorii caută răspunsuri prin ChatGPT, Claude și Gemini.",
+    "solutionTitle": "Generative Engine Optimization (GEO)",
+    "solutionDesc": "Structurăm datele afacerii tale astfel încât AI să te recomande în primul rând, depășind concurenții."
+  },
+  "Services": {
+    "web": {
+      "title": "Dezvoltare Web",
+      "desc": "Site-uri rapide, minimaliste, axate pe tipografie, conversie și o fundație tehnică ideală."
+    },
+    "seo": {
+      "title": "SEO",
+      "desc": "SEO tehnic și de conținut. Cod curat, semantică și structură corectă pentru dominarea în Google."
+    },
+    "geo": {
+      "title": "GEO",
+      "desc": "Adaptarea conținutului pentru algoritmii LLM. Facem brandul tău parte din răspunsurile AI generative."
+    },
+    "maps": {
+      "title": "Google Maps",
+      "desc": "Monopol local. Optimizarea profilului pentru o creștere masivă a apelurilor și solicitărilor de traseu."
+    }
+  },
+  "Case": {
+    "title": "Robotech.md",
+    "situationLabel": "Situație:",
+    "situation": "Produs excelent, vizibilitate zero.",
+    "solutionLabel": "Soluție:",
+    "solution": "Dezvoltarea platformei cu accent pe arhitectura SEO și viteza tehnică.",
+    "resultLabel": "Rezultat:",
+    "result": "Poziționare de top în căutările locale, creștere exponențială a lead-urilor B2B și a traficului organic."
+  },
+  "Contact": {
+    "title": "Începe transformarea.",
+    "name": "Nume",
+    "email": "Email",
+    "task": "Scurtă descriere a sarcinii",
+    "cta": "Trimite solicitarea",
+    "sending": "Se trimite...",
+    "success": "Vă mulțumim! Solicitarea dumneavoastră a fost trimisă cu succes.",
+    "error": "Ceva nu a mers bine. Vă rugăm să încercați din nou."
+  }
+}

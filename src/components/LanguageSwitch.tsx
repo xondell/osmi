@@ -8,17 +8,25 @@ export default function LanguageSwitch() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const toggleLocale = () => {
-    const nextLocale = locale === 'ru' ? 'en' : 'ru';
+  const handleLocaleChange = (nextLocale: 'ru' | 'en' | 'ro') => {
     router.replace(pathname, { locale: nextLocale });
   };
 
   return (
-    <button
-      onClick={toggleLocale}
-      className="fixed top-8 right-8 z-50 mix-blend-difference text-white uppercase text-sm tracking-widest hover:opacity-70 transition-opacity font-mono"
-    >
-      {locale === 'ru' ? 'EN' : 'RU'}
-    </button>
+    <div className="fixed top-8 right-8 z-50 mix-blend-difference text-white text-xs tracking-widest font-mono flex gap-3">
+      {(['ru', 'en', 'ro'] as const).map((lang, index, array) => (
+        <span key={lang} className="flex items-center gap-3">
+          <button
+            onClick={() => handleLocaleChange(lang)}
+            className={`uppercase hover:opacity-70 transition-opacity cursor-pointer ${
+              locale === lang ? 'font-bold opacity-100 border-b border-white pb-0.5' : 'opacity-40'
+            }`}
+          >
+            {lang}
+          </button>
+          {index < array.length - 1 && <span className="opacity-20">/</span>}
+        </span>
+      ))}
+    </div>
   );
 }

@@ -10,7 +10,6 @@ export default function LandingContent({ locale }: { locale: string }) {
   const tProblem = useTranslations('Problem');
   const tServices = useTranslations('Services');
   const tCase = useTranslations('Case');
-  const tTestimonials = useTranslations('Testimonials');
   const tContact = useTranslations('Contact');
 
   const [name, setName] = useState('');
@@ -152,28 +151,6 @@ export default function LandingContent({ locale }: { locale: string }) {
             <div className="text-[#A0A0A0] mb-2 uppercase tracking-widest text-sm">{tCase('resultLabel')}</div>
             <p>{tCase('result')}</p>
           </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-32 px-8 md:px-24 bg-[#111]">
-        <div className="flex flex-col gap-24">
-          {[1, 2, 3].map((i) => (
-            <motion.div 
-              key={i}
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-10%" }}
-              className="max-w-5xl"
-            >
-              <p className="text-3xl md:text-5xl font-medium leading-tight mb-8">
-                &ldquo;{tTestimonials(`${i}.quote` as any)}&rdquo;
-              </p>
-              <p className="text-xl text-[#A0A0A0] uppercase tracking-widest text-sm">
-                — {tTestimonials(`${i}.author` as any)}
-              </p>
-            </motion.div>
-          ))}
         </div>
       </section>
 
