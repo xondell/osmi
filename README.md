@@ -133,6 +133,12 @@ The interface deliberately avoids a conventional agency-template look:
 - responsive content hierarchy;
 - focused conversion path.
 
+## Editing guide
+
+Locale messages live in [messages](messages), localized routes in [src/app](src/app), and language routing in [src/i18n](src/i18n). The contact handler is [src/app/api/contact/route.ts](src/app/api/contact/route.ts).
+
+Run `npm run lint` and `npm run build` after changes. Then review all three locales, language switching, contact-form feedback and Telegram delivery in the intended environment. `npm run start` serves the completed production build; no test script is declared in [package.json](package.json).
+
 ---
 
 <div align="center">
